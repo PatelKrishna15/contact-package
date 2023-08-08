@@ -1,5 +1,5 @@
 ## Installation contact package
-- Hi Here I created packge for contact us page...
+- Hi Here I created packge for contact us page.
 ## For Installation
 
 - For install this package you have to install this package using composer.
