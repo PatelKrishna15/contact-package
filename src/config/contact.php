@@ -8,4 +8,5 @@ return [
     'contact_phone'=>'testnihri@gmail.com', //replace with your contact
     'contact_email'=>'testnihri@gmail.com', // replcae with your email
     'contact_address'=>'Hi There i live in rajkot', // replcae with your email
+    'contact_title'=> env('APP_NAME').' || '.'Contact Page', // replcae with your email
 ];
