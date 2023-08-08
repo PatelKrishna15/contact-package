@@ -1,11 +1,11 @@
 ## Installation contact package
-- Hi Here I created packge for contact us page.
+- Hi Here I created packge for contact us page...
 ## For Installation
 
 - For install this package you have to install this package using composer.
 
 ``` 
-composer require nihirz/contact-package
+composer require nihirz/contact
 ```
 
 - For check the contact package is suc installed or not your have to run this command ```composer dump-autoload```, If you did not get any error that means the package is successfully installed.
