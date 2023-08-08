@@ -9,10 +9,10 @@ composer require nihirz/contact
 ```
 
 - For check the contact package is suc installed or not your have to run this command ```composer dump-autoload```, If you did not get any error that means the package is successfully installed.
-- After this clear cache : ```php artisan optimize:clear```.
+
 ## For Publishing
 
-- For Publishing the routs and blade file you have to run this command ```php artisan vendor:publish``` , And in the list you can find the ```nihir/contact``` publisher select that number.
+- For Publishing the routs and blade file you have to run this command ```php artisan vendor:publish``` , And in the list you can find the ```nihirz/contact``` publisher select that number.
 
 ```
 php artisan optimize:clear
@@ -76,12 +76,12 @@ Contact::create([
 
 ```php
 return [
-    'send_email_to' => "nihirzala@gmail.com",   // replace with your recipient mail address
-    'instagram'=>"http://www.instagram.com",    // replace with your instagram profile url
-    'twitter'=>"http://www.twitter.com",        // replace with your twitter profile url
-    'facebook'=>"http://www.facebook.com",      // replace with your facebook profile url
-    'linkedin'=>"http://www.linkedin.com",      // replace with your linkedin profile url
-    'mail'=>"testnihir@gmail.com",              // replace with your mail 
+    'send_email_to'   =>"",   // replace with your recipient mail address
+    'contact_location'=>"",   // replace with google map location url
+    'contact_phone'   =>"",   // replace with your phone number
+    'contact_email'   =>"",   // replace with your email
+    'contact_address' =>"",   // replace with your address
+    'contact_title'   =>"",   // replace with your title
 ];
 ```
 
